@@ -4,7 +4,8 @@ module.exports = {
   mode: "development",
   entry: {
     counter: "./src/views/components/counter/index.tsx",
-    sample: "./src/views/components/sample/index.tsx",
+    canvas: "./src/views/components/canvas/index.tsx",
+    header: "./src/views/components/header/index.tsx",
   },
   output: {
     filename: "js/[name].js",

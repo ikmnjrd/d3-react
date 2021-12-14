@@ -18,7 +18,7 @@ const Counter:React.VFC<CounterProps> = (props) => {
       >
         button
       </button>
-      <a href='/test'>lint-test</a>
+      <a href='/canvas'>canvas-link</a>
     </div>
   );
 }

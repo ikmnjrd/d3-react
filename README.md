@@ -1,3 +1,6 @@
+# 方針
+ReactでSSR
+emotionでcss props
 
 # セットアップ
 ## git clone
