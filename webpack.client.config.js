@@ -6,6 +6,7 @@ module.exports = {
     counter: "./src/views/components/counter/index.tsx",
     canvas: "./src/views/components/canvas/index.tsx",
     header: "./src/views/components/header/index.tsx",
+    main_links: "./src/views/components/mainlinks/index.tsx",
   },
   output: {
     filename: "js/[name].js",
