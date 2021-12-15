@@ -1,7 +1,8 @@
+/** @jsx Header */
 import ReactDOM from "react-dom";
 import Header from "./Header";
 
 ReactDOM.hydrate(
-    <Header />,
+    <Header/>,
     document.getElementById("header")
 );

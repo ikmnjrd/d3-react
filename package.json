@@ -1,5 +1,5 @@
 {
-  "name": "react-ssr-cloudrun-boiler",
+  "name": "d3-garage",
   "version": "1.0.0",
   "description": "react-ssr, webpack, cloudrun",
   "main": "server.js",
@@ -8,7 +8,9 @@
     "watch": "webpack --watch --progress --config webpack.client.config.js && webpack  --watch --progress --config webpack.server.config.js",
     "start": "node public/server.js",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "lint:eslint": "eslint . --ext ts,tsx",
+    "fix:eslint": "eslint . --ext ts,tsx --fix"
   },
   "engines": {
     "node": ">= 12.0.0"
@@ -34,7 +36,12 @@
     "@storybook/builder-webpack5": "^6.4.9",
     "@storybook/manager-webpack5": "^6.4.9",
     "@storybook/react": "^6.4.9",
+    "@typescript-eslint/eslint-plugin": "^5.7.0",
+    "@typescript-eslint/parser": "^5.7.0",
     "babel-loader": "^8.2.3",
+    "eslint": "^8.4.1",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-webpack-plugin": "^3.1.1",
     "source-map-loader": "^3.0.0",
     "ts-loader": "^9.2.6",
     "typescript": "^4.5.3",

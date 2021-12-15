@@ -1,5 +1,5 @@
 /** @jsx jsx */
-import { jsx, css, keyframes, SerializedStyles } from '@emotion/react'
+import { jsx, css, SerializedStyles } from '@emotion/react'
 import React from 'react';
 
 export interface Props {

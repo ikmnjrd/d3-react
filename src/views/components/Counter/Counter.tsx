@@ -1,9 +1,6 @@
 import React from 'react';
 
-export interface CounterProps {
-}
-
-const Counter:React.VFC<CounterProps> = (props) => {
+const Counter:React.VFC = () => {
   const [count, setCount] = React.useState<number>(0);
 
   const incrementCounter = () => {

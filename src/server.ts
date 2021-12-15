@@ -1,5 +1,4 @@
 import express from 'express';
-import sampleController from './controllers/sampleController';
 import canvasController from './controllers/canvasController';
 import indexController from './controllers/indexController';
 

@@ -1,3 +1,4 @@
+/** @jsx MainLinks */
 import ReactDOM from "react-dom";
 import MainLinks from "./MainLinks";
 
