@@ -9,31 +9,23 @@ export interface Props {
 const MainLinks:React.VFC<Props> = () => {
 
   return (
-    <div css={headerContainer}>
+    <div css={mainLinksContainer}>
       <ul>
-        <li><a href='canvas'>my first d3</a></li>
-        <li><a href='canvas'>my first d3</a></li>
-        <li><a href='canvas'>my first d3</a></li>
-        <li><a href='canvas'>my first d3</a></li>
+        <li><a href='/canvas'>link</a></li>
+        <li><a href='/canvas'>link</a></li>
+        <li><a href='/canvas'>link</a></li>
+        <li><a href='/canvas'>link</a></li>
       </ul>
-
     </div>
   );
 }
 
 
-const headerContainer =css`
+const mainLinksContainer =css`
   display: flex;
   justify-content: space-between;
 `
-const h1Style = css`
-  color: hotpink;
-  padding-left: 1rem;
-  margin: 0;
-`
-const rightBox =css`
-  display: flex;
-`
+
 
 
 export default MainLinks;
